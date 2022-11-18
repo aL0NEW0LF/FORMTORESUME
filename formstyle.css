@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+input[type=text], input[type=number], input[type=email], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 16px;
+  }
+
+  input[type=submit]:hover {
+    background-color: black;
+  }
+
+  input[type=tel] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=url] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=file] {
+    display: none;
+  }
+
+  .picupload {
+    width: auto;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .picupload:hover {
+    background-color: black;
+  }
+
+  textarea {
+    resize: none;
+  }
+  
+  table {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+  }
+
+  #age {
+    width: 200px;
+  }
+
+  .linkedinimg {
+    width: 50px;
+    height: 50px;
+    background-image: url('linkedin1.png');
+    background-size: contain;
+  }
+
+  .twitterimg {
+    width: 50px;
+    height: 50px;
+    background-image: url('twitter1.png');
+    background-size: contain;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+    overflow: hidden;
+    -webkit-appearance: none;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    overflow: hidden;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    visibility: visible;
+  }

@@ -1,0 +1,172 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat';
+    width: 100%;
+}
+
+.pic {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 250px;
+    height: 250px
+}
+
+.name {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+#pic {
+    border-radius: 100%;
+    width: inherit;
+}
+
+.topbar {
+    width: 100%;
+    height: 200px;
+    background-color: #171717;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    gap: 0;
+    background-color: white;
+    padding: 0;
+    position: relative;
+    top: 100px;
+}
+
+.grid-container > div {
+    background-color: white;
+    padding: 0;
+    font-size: 30px;
+}
+
+  
+.bigtitle {
+    padding: 25px 0 25px 0;
+    font-size: 45px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 320px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+  }
+
+  li {
+    color: black;
+  }
+  
+  li p {
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    background-color: white;
+    color: #AAAAAA;
+    cursor: pointer;
+  }
+
+  table{
+    width: 100%;
+  }
+  
+  table, tr, th, td {
+    border: #171717 solid 0px;
+    word-break: break-all;
+    vertical-align: top;
+  }
+
+  td {
+    padding: 5px 0;
+  }
+
+  .firstcol {
+    width: 30%;
+    text-indent: 25px;
+  }
+
+  .cvinfos {
+    text-indent: 30px;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  .item1 {
+    grid-column: 1 / span 3;
+    height: fit-content;
+    margin: 50px;
+    word-break: break-all;
+    word-wrap: break-word;
+    }
+
+  .item5 {
+    grid-column: 1 / span 3;
+    height: fit-content;
+    margin: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    }
+
+  .linkedinimg {
+    width: 50px;
+    height: 50px;
+    background-image: url('linkedin1.png');
+    background-size: contain;
+  }
+
+  .twitterimg {
+    width: 50px;
+    height: 50px;
+    background-image: url('twitter1.png');
+    background-size: contain;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+    overflow: hidden;
+    -webkit-appearance: none;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    overflow: hidden;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    visibility: visible;
+  }
